@@ -21,10 +21,10 @@ def mackey_glass(tau, length):
     return y[tau+delay:length+delay+tau] # return the last length elements
 
 
-length=4000 # duration of the series
-tau=17 # delay in the equation
+#length=4000 # duration of the series
+#tau=17 # delay in the equation
 
-y=mackey_glass(tau, length)
+#y=mackey_glass(tau, length)
 #plot generated time-series
-plt.plot(y)
-plt.show()
+#plt.plot(y)
+#plt.show()
